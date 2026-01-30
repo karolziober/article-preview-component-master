@@ -29,7 +29,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+main {
   background-color: var(--color-bg);
   display: flex;
   flex-direction: column;
@@ -188,13 +188,13 @@ article {
 }
 
 @media (max-width: 89.9375rem) {
-  body {
+  main {
     padding: var(--space-4xl);
   }
 }
 
 @media (max-width: 47.9375rem) {
-  body {
+  main {
     padding: var(--space-xl);
   }
   article {
