@@ -50,12 +50,12 @@ article {
   box-shadow: rgba(0, 0, 0, 0.3) 0rem 1.875rem 3.75rem -1.875rem;
 }
 .left-side {
-  width: 39%;
+  width: 1 1 39%;
   overflow: hidden;
   border-radius: var(--radius) 0 0 var(--radius);
 }
 .right-side {
-  width: 61%;
+  width: 1 1 61%;
 
   padding: var(--space-2xl);
 }
@@ -140,13 +140,8 @@ article {
 .share-text {
   color: var(--color-date);
   font-size: var(--font-size-sm);
-  letter-spacing: 25%;
+  letter-spacing: 0.3125rem;
   line-height: 1.4;
-}
-
-.share-box.active {
-  opacity: 1;
-  visibility: visible;
 }
 
 .share-box::after {
@@ -157,12 +152,6 @@ article {
   transform: translateX(-50%);
   border: 0.75rem solid transparent;
   border-top-color: var(--color-share-box);
-}
-
-.share-text {
-  color: var(--color-date);
-  font-size: var(--font-size-sm);
-  letter-spacing: 0.3125rem;
 }
 
 .share-box.active {
